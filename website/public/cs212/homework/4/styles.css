@@ -1,0 +1,53 @@
+html {
+   background-color: antiquewhite;
+}
+
+body
+   {
+    background-color:white;
+    margin: 50px 30%;
+    border: 2px #333 solid;
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+h1 
+   { 
+     font-size: 14pt;
+     text-align: center;
+   }
+
+p
+   {
+     text-indent: 5%;
+     font-size: 12pt;
+     margin: 10px 10%;
+   }
+
+p:nth-child(-n + 4)
+   {
+    text-indent: 0%;
+   }
+
+p:first-child
+   {
+    margin-top: 100px;
+   }
+
+h2 
+   {
+    font-size: 14pt;
+    text-align: center;
+   }
+h3 
+   {
+    font-size: 14pt;
+    text-align: center;
+   }
+
+#Addendum 
+   {
+    margin: 100px 10%;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+   }
+

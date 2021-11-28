@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+      <title>Homework 7</title>
+      <link rel="stylesheet" href="holyGrail.css">
+    </head>
+
+    <div class="container">
+        <header>
+          <!-- Header -->
+          CS212 Homework 7
+        </header>
+      
+        <nav>
+          <!-- Navigation Side Bar -->
+          <p><a href="/cs212/homework/2">Homework 2</a></p>
+          <p><a href="/cs212/homework/3">Homework 3</a></p>
+          <p><a href="/cs212/homework/4">Homework 4</a></p>
+        </nav>
+      
+        <main>
+          <!-- Main content -->
+          <script src="hwk7.js"></script>
+
+          Enter A Number And I Will Tell You If It Is Prime!<br>
+
+          <input id="target-box" type="number" min="1" max="100">
+
+          <button onclick="runGame()">Am I Prime?</button>
+
+          <div id='answer'></div>
+
+          <img id = "reaction" src="" alt="">
+        </main>
+      
+        <aside>
+          <!-- Ad -->
+          <p>
+            <a href = "https://www.amazon.com/ChapStick-Moisturizer-Protectant-Original-Sunscreen/dp/B07GVPQXRF/ref=sr_1_5?crid=25SME5UFRJCRC&keywords=chapstick&qid=1636756231&rdc=1&sprefix=chap%2Caps%2C217&sr=8-5&th=1">
+              <img src="chapstick.png" alt="#2 Pencil">
+            </a>
+            <br>
+            Click Me!<br>
+            This totally not suspicous AD is for the BEST chapstick around! <br>
+            Just make sure to click on the image so you can see for yourself!
+          </p>
+          
+
+        </aside>
+      
+        <footer>
+          <!-- Footer -->
+          My JavaScript determines if the user inputted number is prime or not. <br>
+          It is pretty simple to determine if a number is prime with a simple algorithm. <br>
+          Once user input is received, if the number is greater than 1 than we just loop from 
+          2 to the number - 1 and check if the number is divisible by any of the numbers between 
+          1 and the number, if it is then its not prime.<br> If the number is 1 or less than we ask 
+          the user to enter a different number.
+        </footer>
+      </div>
+</html>
